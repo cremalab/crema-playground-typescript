@@ -1,0 +1,37 @@
+{
+  "name": "crema-typescript-playground",
+  "version": "1.0.0",
+  "description": "A TypeScript playground equipped with all the goodies (jest, tslint, prettier)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "new:project": "hygen project new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cremalab/crema-playground-typescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "jest",
+    "tslint",
+    "prettier"
+  ],
+  "author": "crema",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cremalab/crema-playground-typescript/issues"
+  },
+  "homepage": "https://github.com/cremalab/crema-playground-typescript#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "hygen": "^2.1.1",
+    "jest": ">=22.0.0 <24.0.0",
+    "prettier": "^1.16.3",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.3.1"
+  }
+}
