@@ -10,6 +10,10 @@ Your code will be arranged under `projects`. An example for `add` is already in 
 
 1. [Install node/npm](https://nodejs.org/en/) (skip if already installed)
 2. `npm i` (install project dependencies)
+3. [Install the appropriate TSlint plugin for your editor](https://palantir.github.io/tslint/usage/third-party-tools/)
+4. Enable "Fix on Save" to get the full experience (e.g. `"tslint.autoFixOnSave": true` in vscode)
+
+> While not required, we suggest using [Visual Studio Code](https://code.visualstudio.com) because it has first class TypeScript support.
 
 ## Run
 
