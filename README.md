@@ -9,9 +9,10 @@ Your code will be arranged under `projects`. An example for `add` is already in 
 > You'll need npm (node package manager) installed which is included with node.
 
 1. [Install node/npm](https://nodejs.org/en/) (skip if already installed)
-2. `npm i` (install project dependencies)
-3. [Install the appropriate TSlint plugin for your editor](https://palantir.github.io/tslint/usage/third-party-tools/)
-4. Enable "Fix on Save" to get the full experience (e.g. `"tslint.autoFixOnSave": true` in vscode)
+2. `nvm use` (use the correct version of node, make sure to install the version it uses if you don't have it)
+3. `npm i` (install project dependencies)
+4. [Install the appropriate TSlint plugin for your editor](https://palantir.github.io/tslint/usage/third-party-tools/)
+5. Enable "Fix on Save" to get the full experience (e.g. `"tslint.autoFixOnSave": true` in vscode)
 
 > While not required, we suggest using [Visual Studio Code](https://code.visualstudio.com) because it has first class TypeScript support.
 
